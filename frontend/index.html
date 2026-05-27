@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Personas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de Personas</h1>
+        <p>Generadas desde randomuser.me</p>
+        <button id="btn-nuevas" class="btn-nuevas">Nuevas personas</button>
+    </header>
+
+    <main id="app">
+        <div id="loading" class="loading">Cargando personas...</div>
+        <div id="error" class="error hidden"></div>
+        <div id="lista" class="grid"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
